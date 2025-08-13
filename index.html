@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dota 2 — Добро пожаловать</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="hero-banner">
+    <div class="overlay">
+      <h1>Dota 2</h1>
+      <p>Самая эпичная онлайн-битва всех времён</p>
+      <button onclick="playNow()">Играть бесплатно</button>
+    </div>
+  </header>
+
+  <main>
+  <section class="heroes">
+    <h2>Герои</h2>
+    <div class="hero-grid" id="heroGrid"></div>
+  </section>
+
+  <!-- 🧠 О ИГРЕ -->
+  <section class="about">
+    <h2>О Dota 2</h2>
+    <p>Dota 2 — это соревновательная командная онлайн-игра, созданная компанией Valve. Две команды по пять игроков сражаются за контроль над ареной, используя уникальных героев. Это не просто игра — это целая вселенная стратегии, реакции и командной игры.</p>
+  </section>
+
+  <!-- 🎬 ТРЕЙЛЕР -->
+  <section class="video-double">
+  <h2>Смотри трейлеры</h2>
+  <div class="video-row">
+    <div class="video-box">
+      <iframe src="https://www.youtube.com/embed/tmn5HXW-3Wk"
+              title="Официальный трейлер Dota 2"
+              frameborder="0" allowfullscreen></iframe>
+    </div>
+    <div class="video-box">
+      <iframe src="https://www.youtube.com/embed/-cSFPIwMEq4"
+              title="Dota 2 – Free to Play Trailer"
+              frameborder="0" allowfullscreen></iframe>
+    </div>
+  </div>
+</section>
+<section class="merch">
+  <h2 class="merch-title"> Мерч Dota 2</h2>
+
+  <div class="merch-grid">
+
+    <div class="merch-item">
+      <img src="https://i.postimg.cc/gkw8FcHG/Dota-2-T-shirt.jpg" alt="Футболка Dota 2">
+      <h3>Футболка Dota 2</h3>
+      <p>Чёрная футболка с ярким логотипом Dota 2. Идеальна для фанатов игры!</p>
+      <span class="price">799 грн</span>
+      <button onclick="buyItem('Футболка Dota 2')">Купить</button>
+    </div>
+
+    <div class="merch-item">
+      <img src="https://i.postimg.cc/ZK3PvKBV/I-love-Love-Dota-Exclusivo-para-fan-ticos-Glaia-Detalles-Regala-Con-Amor.jpg" alt="Подарочный набор">
+      <h3>Кружка фаната</h3>
+      <p>Подарочная кружка для настоящих фанатов Dota 2: стиль и атмосфера игры в каждом элементе.</p>
+      <span class="price">599 грн</span>
+      <button onclick="buyItem('Набор фаната')">Купить</button>
+    </div>
+
+    <div class="merch-item">
+      <img src="https://i.postimg.cc/DzDmcLRs/10-Magn-ficos-Regalos-de-Dota-2.jpg" alt="Подарки Dota 2">
+      <h3>Брелок Dota 2</h3>
+      <p> Брелки для ценителей и коллекционеров!</p>
+      <span class="price">449 грн</span>
+      <button onclick="buyItem('Подарки Dota 2')">Купить</button>
+    </div>
+
+  </div>
+</section>
+
+</main>
+
+  <footer>
+  <div class="footer-container">
+    <div class="footer-socials">
+      <span class="social-title">⚔️ Подписывайся на нас:</span>
+      <a class="social-button" href="https://www.instagram.com/dota2/" target="_blank" aria-label="Instagram">
+        <img src="https://cdn-icons-png.flaticon.com/512/1384/1384063.png" alt="Instagram" />
+      </a>
+      <a class="social-button" href="https://www.youtube.com/user/dota2" target="_blank" aria-label="YouTube">
+        <img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="YouTube" />
+      </a>
+      <a class="social-button" href="https://x.com/dota2" target="_blank" aria-label="X">
+        <img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="X" />
+      </a>
+    </div>
+  </div>
+  
+</footer>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
